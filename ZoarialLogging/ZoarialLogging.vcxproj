@@ -66,8 +66,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\ZoarialLogging.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="inc\ZoarialLogging.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
